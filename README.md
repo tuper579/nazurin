@@ -87,7 +87,9 @@ Set all required environment variables on Heroku according to [Configuration Gui
 
 1.  Install dependencies: `pip install -r requirements.txt`
 2.  Set the required environment variables or place them in `.env` file, you may refer to `.env.example` as an example
-3.  Start the bot: `python -m nazurin`
+3.  webhook url: https://api.telegram.org/bot{my_bot_token}/setWebhook?url={url_to_send_updates_to}
+    For instance: https://api.telegram.org/bot12513892:AAELLrxaVpe8qeJPdghggQdS03BLELon7LQ/setWebhook?url=https://www.example.com
+5.  Start the bot: `python -m nazurin`
 
 #### Docker
 
